@@ -1,0 +1,7 @@
+CREATE TABLE lembretes (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(60) NOT NULL,
+    data DATE NOT NULL,
+    
+    PRIMARY KEY (id)
+);
