@@ -46,9 +46,30 @@ Além do Lombok, o projeto do backend utiliza as seguintes dependências já ins
    Você receberá uma mensagem de sucesso após a conclusão da instalação.
    
 ### Instalação MySQL Server
-
-
-
+1. Acesse https://dev.mysql.com/downloads/windows/installer/8.0.html e faça download do arquivo de instalação completo. (.msi)
+2. Na etapa Choosing a Setup Type, selecione a opção Custom
+3. Na etapa Select Products, encontre e mova os seguintes produtos do lado esquerdo para o lado direito:
+• MySQL Server 8.0.x
+• MySQL Workbench 8.0.x
+Clique em Next logo em seguida.
+4. Na etapa Check Requirements, clique no botão Execute.
+5. Na etapa Installation, clique no botão Execute para iniciar a instalação do MySQL Server.
+6. Na etapa Product Configuration, clique no botão Next.
+7. A primeira tela de configuração é a Type and Networking, onde é possivel configurar a porta que o servidor 
+MySQL ira usar para receber conexões. No codigo foi utilizado a porta 3306. Anote a porta que for utilizar para fazer
+futuras conexões.
+8. Na etapa Authentication Method, não altere nada e apenas clique no botão Next.
+9. Nesta etapa (Accounts and Roles) você deve configurar uma senha para o usuário
+root, que é o administrador do servidor de banco de dados. Digite uma senha no campo e anote ela, ela sera a senha
+do seu root MySQL, caso tenha interesse em fazer consultas no MySQL WorkBench por exemplo.
+10. Na etapa Windows Service não altere nada e apenas clique no botão Next.
+11. Na etapa Apply Configuration, clique no botão Next para que todas as
+configurações sejam aplicadas
+Ainda em Apply Configuration, ao concluir a aplicação das
+configurações, apenas clique em Finish.
+12. Voltamos para Product Configuration, indicando que a configuração está
+finalizada. Clique em Next
+13. A instalação e configuração do MySQL Server e MySQL Workbench está concluída. Clique no botão Finish.
 
 ## Importando o projeto
 1. Faça o clone do projeto a partir do repositório: https://github.com/lucasdiniz1708/lembretes-api.
