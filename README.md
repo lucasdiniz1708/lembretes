@@ -1,7 +1,7 @@
 # Lembretes - Backend
 
-Este é o diretório do backend da aplicação Lembretes. Aqui você encontrará o código fonte e os arquivos de configuração necessários para o servidor.
-               ![image](https://github.com/lucasdiniz1708/lembretes-api/assets/62633877/ea438b02-bea6-4ecf-b1f9-6f30e6a89b8b)
+Este é o diretório do backend da aplicação Lembretes. Aqui você encontrará o código fonte e os arquivos de configuração necessários para o servidor.<br>
+               ![image](https://github.com/lucasdiniz1708/lembretes-api/blob/main/resposta-servidor.png)
 
 ## Descrição
 
