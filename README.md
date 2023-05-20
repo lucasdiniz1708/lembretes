@@ -2,7 +2,7 @@
 
 Este é o diretório do backend da aplicação Lembretes. Aqui você encontrará o código fonte e os arquivos de configuração necessários para o servidor.<br>
                ![image](https://github.com/lucasdiniz1708/lembretes-api/blob/main/resposta-servidor.png)
-<br> Na imagem acima podemos ver a resposta que o servidor está em execução ao acessar localhost:8080
+<br> Na imagem acima podemos ver a resposta do servidor em execução
 ## Descrição
 
 O backend do Lembretes é um projeto de API RESTful desenvolvido em Java usando o framework Spring Boot. Ele fornece os serviços e funcionalidades necessários para a aplicação de lembretes. Aqui estão alguns detalhes sobre o projeto:
