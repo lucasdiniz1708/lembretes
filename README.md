@@ -22,7 +22,7 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
  ### Instalação da IDE
 
 1. Baixe e instale o Spring Tools Suite 4 em sua máquina a partir do site oficial da Spring: https://spring.io/tools.
-   Ou, se preferir, utilize o Visual Studio Code com a extensão Spring Boot Extension Pack.
+  <br> Ou, se preferir, utilize o Visual Studio Code com a extensão Spring Boot Extension Pack.
    
 ### Configuração do Lombok
 
