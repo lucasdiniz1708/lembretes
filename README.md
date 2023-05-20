@@ -23,7 +23,7 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
 
 1. Baixe e instale o Spring Tools Suite 4 em sua máquina a partir do site oficial da Spring: https://spring.io/tools.
    Ou, se preferir, utilize o Visual Studio Code com a extensão Spring Boot Extension Pack.
-
+   
 ### Configuração do Lombok
 
 1. Faça o download do Lombok em https://projectlombok.org/download.
@@ -33,16 +33,17 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
    Em seguida, clique no botão "Install / Update" para iniciar a instalação.
    Você receberá uma mensagem de sucesso após a conclusão da instalação.
 
-### Dependências utilizadas
+   
+#### Dependências utilizadas
 
-Além do Spring Boot, o projeto do backend utiliza as seguintes dependências:
-
-- Lombok: Biblioteca que facilita a escrita de código limpo e reduz a necessidade de escrever código boilerplate.
+Além do Lombok, o projeto do backend utiliza as seguintes dependências já instaladas no pom.xml:
 - Spring Boot Starter Web: Fornece suporte para desenvolvimento de aplicações web com o Spring MVC.
 - DevTools: Oferece ferramentas de desenvolvimento para melhorar a produtividade durante o ciclo de desenvolvimento.
 - Spring Data JPA: Facilita o acesso a dados e a implementação de repositórios usando a tecnologia JPA (Java Persistence API).
 - MySQL Driver: Driver de conexão JDBC para o MySQL.
 - Flyway DB e Flyway MySQL: Utilizados para migração e versionamento do banco de dados.
+
+
 
 ### Importando o projeto
 
