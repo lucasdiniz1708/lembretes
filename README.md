@@ -51,7 +51,7 @@ Além do Lombok, o projeto do backend utiliza as seguintes dependências já ins
 
 ## Importando o projeto
 1. Faça o clone do projeto a partir do repositório: https://github.com/lucasdiniz1708/lembretes-api.
-2. Abra a IDE Spring Tools Suite 4 ou o Visual Studio Code e importe o projeto como um projeto Maven existente.
+2. Abra o workspace lembretes-api apartir do Spring Tools Suite 4 ou Visual Studio Code.
 
 ### Configuração do banco de dados
 
@@ -65,10 +65,6 @@ Além do Lombok, o projeto do backend utiliza as seguintes dependências já ins
 
 ### Executando o servidor
 
-Existem duas maneiras de executar o servidor backend:
-
-#### Opção 1: Executando o servidor pela IDE
-
 1. Certifique-se de ter o JDK, Lombok e MySQL Server instalados em sua máquina.
 2. Na IDE Spring Tools Suite 4 ou no Visual Studio Code, navegue e clique até o botão "Run" do Boot DashBoard Spring Boot. 
 3. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080".
@@ -77,4 +73,4 @@ Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de l
 
 ## Necessidade do servidor para funcionamento completo da aplicação
 
-Para testar a funcionalidade completa da aplicação, verifique se você possui o front em execução, através do Visual Studio Code com a , seguindo as instruções no repositório. [https://github.com/lucasdiniz1708/lembretes-front](https://github.com/lucasdiniz1708/lembretes-front)
+Para testar a funcionalidade completa da aplicação, verifique se você possui o front em execução, através do Visual Studio Code com a extensão live server, seguindo as instruções no repositório. [https://github.com/lucasdiniz1708/lembretes-front](https://github.com/lucasdiniz1708/lembretes-front)
