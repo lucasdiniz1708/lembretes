@@ -7,20 +7,36 @@ Este é o diretório do backend da aplicação Lembretes. Ele contém o código 
 O backend é responsável por processar as requisições do frontend e fornecer os dados e serviços necessários para a aplicação de lembretes. Aqui estão alguns detalhes sobre o backend:
 
 - IDE utilizada: Spring Tools Suite 4
-- Dependências utilizadas: Spring Boot Starter Web, Lombok, DevTools, Spring Data JPA, MySQL Driver, Flyway DB e Flyway MySQL.
+- Dependências utilizadas: Lombok, Spring Boot Starter Web, , DevTools, Spring Data JPA, MySQL Driver, Flyway DB e Flyway MySQL.
 
 ## Configuração e Execução
 
-Para configurar e executar o backend, siga as etapas abaixo:
+Para configurar e executar o backend, será necessário fazer o download do ambiente de desenvolvimento da aplicação.
 
 ### Pré-requisitos
 
 - JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle.
-- MySQL Server instalado e configurado corretamente. Certifique-se de ter as credenciais de acesso ao banco de dados.
-
+   para verificar se foi instalado corretamente, digite o codigo no terminal:
+      $ java -version
+      $ javac -version
+    
 ### Instalação da IDE
 
 1. Baixe e instale o Spring Tools Suite 4 em sua máquina a partir do site oficial da Spring: https://spring.io/tools.
+   ou se não utlize o Visual Studio Code com a extensão Spring Boot Extension Pack 
+
+### Configuração do Lombok
+
+1. Faça o download do Lombok em https://projectlombok.org/download.
+2. Após o download, execute o arquivo lombok.jar, para iniciar o instalador da biblioteca.
+3. Localize a instalação do STS na lista de IDEs e garanta que apenas as IDEs que você deseja instalar o Lombok estejam selecionadas.
+Caso a sua IDE não apareça na listagem do instalador, clique no botão Specify location.
+Feito isso basta clicar no botão Install / Update. A biblioteca será instalada na sua
+IDE e você vai receber uma mensagem de sucesso.
+
+
+### My Sql Server
+
 
 ### Importando o projeto
 
