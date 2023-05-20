@@ -1,24 +1,25 @@
 # Lembretes - Backend
 
-Este é o diretório do backend da aplicação Lembretes. Ele contém o código fonte e os arquivos de configuração necessários para o servidor.
+Este é o diretório do backend da aplicação Lembretes. Aqui você encontrará o código fonte e os arquivos de configuração necessários para o servidor.
 
 ## Descrição
 
-O backend é responsável por processar as requisições do frontend e fornecer os dados e serviços necessários para a aplicação de lembretes. Aqui estão alguns detalhes sobre o backend:
+O backend do Lembretes é um projeto de API RESTful desenvolvido em Java usando o framework Spring Boot. Ele fornece os serviços e funcionalidades necessários para a aplicação de lembretes. Aqui estão alguns detalhes sobre o projeto:
 
-- IDE utilizada: Spring Tools Suite 4
-- Dependências utilizadas: Lombok, Spring Boot Starter Web, DevTools, Spring Data JPA, MySQL Driver, Flyway DB e Flyway MySQL.
+- Linguagem de programação: Java
+- Framework: Spring Boot
 
-## Pré-requisitos
- 
+## Configuração e Execução
+
 Para configurar e executar o backend, serão necessárias algumas etapas de instalação e configuração.
-- JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:
-   $ java -version
-   $ javac -version
-   
-### My Sql Server
 
-### Instalação da IDE
+### Pré-requisitos
+
+- JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:
+ $ java -version
+ $ javac -version
+ 
+ ### Instalação da IDE
 
 1. Baixe e instale o Spring Tools Suite 4 em sua máquina a partir do site oficial da Spring: https://spring.io/tools.
    Ou, se preferir, utilize o Visual Studio Code com a extensão Spring Boot Extension Pack.
@@ -32,6 +33,17 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
    Em seguida, clique no botão "Install / Update" para iniciar a instalação.
    Você receberá uma mensagem de sucesso após a conclusão da instalação.
 
+### Dependências utilizadas
+
+Além do Spring Boot, o projeto do backend utiliza as seguintes dependências:
+
+- Lombok: Biblioteca que facilita a escrita de código limpo e reduz a necessidade de escrever código boilerplate.
+- Spring Boot Starter Web: Fornece suporte para desenvolvimento de aplicações web com o Spring MVC.
+- DevTools: Oferece ferramentas de desenvolvimento para melhorar a produtividade durante o ciclo de desenvolvimento.
+- Spring Data JPA: Facilita o acesso a dados e a implementação de repositórios usando a tecnologia JPA (Java Persistence API).
+- MySQL Driver: Driver de conexão JDBC para o MySQL.
+- Flyway DB e Flyway MySQL: Utilizados para migração e versionamento do banco de dados.
+
 ### Importando o projeto
 
 1. Faça o clone do projeto a partir do repositório: https://github.com/lucasdiniz1708/lembretes-api.
@@ -42,6 +54,9 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
 1. Certifique-se de ter o MySQL Server instalado e configurado corretamente.
 2. Abra o arquivo `application.properties` localizado no diretório `src/main/resources`.
 3. Configure as propriedades `spring.datasource.url`, `spring.datasource.username` e `spring.datasource.password` de acordo com as configurações do seu banco de dados MySQL. Por exemplo:
+   spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_banco_de_dados
+   spring.datasource.username=seu_usuario
+   spring.datasource.password=sua_senha
 4. Certifique-se de que a tabela `lembrete` exista no banco de dados.
 
 ### Executando o servidor
@@ -63,8 +78,6 @@ Existem duas maneiras de executar o servidor backend:
 4. Após a conclusão do comando acima, execute o seguinte comando para iniciar o servidor:
 5. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080" no console.
 
-Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de lembretes através do seu navegador ou de outra ferramenta de requisições HTTP, utilizando o endpoint `/lembretes` e a URL `http://localhost:8080`. Certifique-se de enviar as requisições HTTP corretamente para interagir com a API Restful.
+Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de lembretes através do seu navegador ou de outra ferramenta de requisições HTTP, utilizando o endpoint `/lembretes` e a URL `http://localhost:8080`. Certifique-se de enviar as requisições HTTP corretamente para interagir com a API RESTful.
 
 Espero que isso te ajude!
-
-
