@@ -2,7 +2,7 @@
 
 Este é o diretório do backend da aplicação Lembretes. Ele contém o código fonte e os arquivos de configuração necessários para o servidor.
 
-## Descrição
+# Descrição
 
 O backend é responsável por processar as requisições do frontend e fornecer os dados e serviços necessários para a aplicação de lembretes. Aqui estão alguns detalhes sobre o backend:
 
@@ -13,7 +13,7 @@ O backend é responsável por processar as requisições do frontend e fornecer 
 
 Para configurar e executar o backend, será necessário fazer o download do ambiente de desenvolvimento da aplicação.
 
-### Pré-requisitos
+## Pré-requisitos
 
 - JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle.
    para verificar se foi instalado corretamente, digite o codigo no terminal:
@@ -38,7 +38,7 @@ IDE e você vai receber uma mensagem de sucesso.
 ### My Sql Server
 
 
-### Importando o projeto
+## Importando o projeto
 
 1. Faça o clone do projeto a partir do repositório: https://github.com/lucasdiniz1708/lembretes-api.
 2. Abra a IDE Spring Tools Suite 4.
@@ -60,8 +60,6 @@ IDE e você vai receber uma mensagem de sucesso.
 
 ### Executando o servidor
 
-Existem duas maneiras de executar o servidor backend:
-
 #### Opção 1: Executando o servidor pela IDE
 
 1. Certifique-se de ter o JDK e o MySQL Server instalados em sua máquina.
@@ -71,7 +69,11 @@ Existem duas maneiras de executar o servidor backend:
 
 #### Opção 2: Executando o servidor por linha de comando
 
-1. Certifique-se de ter o JDK e o MySQL Server instalados em sua máquina.
+1. Certifique-se de ter o JDK, Lombok e MySQL Server instalados em sua máquina.
 2. No terminal, navegue até o diretório raiz do projeto backend.
 3. Execute o seguinte comando para compilar e criar o arquivo JAR do projeto:
+4. Após a conclusão do comando acima, execute o seguinte comando para iniciar o servidor:
+5. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080" no console.
+
+Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de lembretes através do seu navegador ou de outra ferramenta de requisições HTTP, utilizando o endpoint `/lembretes` e a URL `http://localhost:8080`. Certifique-se de enviar as requisições HTTP corretamente para interagir com a API Restful de acordo com a classe controller.
 
