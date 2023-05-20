@@ -9,12 +9,9 @@ O backend é responsável por processar as requisições do frontend e fornecer 
 - IDE utilizada: Spring Tools Suite 4
 - Dependências utilizadas: Lombok, Spring Boot Starter Web, DevTools, Spring Data JPA, MySQL Driver, Flyway DB e Flyway MySQL.
 
-## Configuração e Execução
-
+## Pré-requisitos
+ 
 Para configurar e executar o backend, serão necessárias algumas etapas de instalação e configuração.
-
-### Pré-requisitos
-
 - JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:
    $ java -version
    $ javac -version
