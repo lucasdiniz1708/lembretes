@@ -9,11 +9,11 @@ O backend do Lembretes é um projeto de API RESTful desenvolvido em Java usando 
 - Linguagem de programação: Java
 - Framework: Spring Boot
 
-## Configuração e Execução
+# Configuração e Execução
 
 Para configurar e executar o backend, serão necessárias algumas etapas de instalação e configuração.
 
-### Pré-requisitos
+## Pré-requisitos
 
 - JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:
  $ java -version
@@ -45,7 +45,7 @@ Além do Lombok, o projeto do backend utiliza as seguintes dependências já ins
 
 
 
-### Importando o projeto
+## Importando o projeto
 
 1. Faça o clone do projeto a partir do repositório: https://github.com/lucasdiniz1708/lembretes-api.
 2. Abra a IDE Spring Tools Suite 4 ou o Visual Studio Code e importe o projeto como um projeto Maven existente.
@@ -67,18 +67,9 @@ Existem duas maneiras de executar o servidor backend:
 #### Opção 1: Executando o servidor pela IDE
 
 1. Certifique-se de ter o JDK, Lombok e MySQL Server instalados em sua máquina.
-2. Na IDE Spring Tools Suite 4 ou no Visual Studio Code, navegue até o arquivo `LembretesApplication.java` localizado no pacote `com.example.lembretes`.
-3. Clique com o botão direito do mouse no arquivo e selecione `Run As` > `Java Application`.
-4. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080" no console da IDE ou do terminal.
+2. Na IDE Spring Tools Suite 4 ou no Visual Studio Code, navegue e clique até o botão "Run" do Boot DashBoard Spring Boot. 
+3. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080".
 
-#### Opção 2: Executando o servidor por linha de comando
-
-1. Certifique-se de ter o JDK, Lombok e MySQL Server instalados em sua máquina.
-2. No terminal, navegue até o diretório raiz do projeto backend.
-3. Execute o seguinte comando para compilar e criar o arquivo JAR do projeto:
-4. Após a conclusão do comando acima, execute o seguinte comando para iniciar o servidor:
-5. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080" no console.
-
-Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de lembretes através do seu navegador ou de outra ferramenta de requisições HTTP, utilizando o endpoint `/lembretes` e a URL `http://localhost:8080`. Certifique-se de enviar as requisições HTTP corretamente para interagir com a API RESTful.
+Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de lembretes através do seu navegador ou de outra ferramenta de requisições HTTP, utilizando o endpoint `/lembretes` e a URL `http://localhost:8080`. Certifique-se de enviar as requisições HTTP corretamente para interagir com a API RESTful de acordo com a classe controller do codigo.
 
 Espero que isso te ajude!
