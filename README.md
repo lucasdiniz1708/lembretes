@@ -15,7 +15,7 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
 
 ## Pré-requisitos
 
-- JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:
+- JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:<br>
  $ java -version
  $ javac -version
  
