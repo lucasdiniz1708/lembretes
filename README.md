@@ -37,3 +37,25 @@ Para configurar e executar o backend, siga as etapas abaixo:
 1. Certifique-se de ter o MySQL Server instalado e configurado corretamente.
 2. Abra o arquivo `application.properties` localizado no diretório `src/main/resources`.
 3. Configure as propriedades `spring.datasource.url`, `spring.datasource.username` e `spring.datasource.password` de acordo com as configurações do seu banco de dados MySQL. Por exemplo:
+  spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_banco_de_dados
+  spring.datasource.username=seu_usuario
+  spring.datasource.password=sua_senha
+4. A tabela utilizada pela aplicação é `lembrete`. Certifique-se de que ela exista no banco de dados.
+
+### Executando o servidor
+
+Existem duas maneiras de executar o servidor backend:
+
+#### Opção 1: Executando o servidor pela IDE
+
+1. Certifique-se de ter o JDK e o MySQL Server instalados em sua máquina.
+2. Na IDE Spring Tools Suite, navegue até o arquivo `LembretesApplication.java` localizado no pacote `com.example.lembretes`.
+3. Clique com o botão direito do mouse no arquivo e selecione `Run As` > `Java Application`.
+4. Aguarde até que o servidor seja inicializado. Você verá a mensagem "Tomcat started on port(s): 8080" no console da IDE.
+
+#### Opção 2: Executando o servidor por linha de comando
+
+1. Certifique-se de ter o JDK e o MySQL Server instalados em sua máquina.
+2. No terminal, navegue até o diretório raiz do projeto backend.
+3. Execute o seguinte comando para compilar e criar o arquivo JAR do projeto:
+
