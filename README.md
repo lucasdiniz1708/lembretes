@@ -18,11 +18,20 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
 - JDK (Java Development Kit) instalado na máquina. Você pode baixá-lo e instalá-lo a partir do site oficial da Oracle. Para verificar se foi instalado corretamente, digite o seguinte código no terminal:
 <br> $ java -version
 <br> $ javac -version
- 
+## Preparando o ambiente
  ### Instalação da IDE
 
 1. Baixe e instale o Spring Tools Suite 4 em sua máquina a partir do site oficial da Spring: https://spring.io/tools.
   <br> Ou, se preferir, utilize o Visual Studio Code com a extensão Spring Boot Extension Pack.
+ 
+#### Dependências utilizadas
+
+Além do Lombok, o projeto do backend utiliza as seguintes dependências já instaladas no pom.xml:
+- Spring Boot Starter Web: Fornece suporte para desenvolvimento de aplicações web com o Spring MVC.
+- DevTools: Oferece ferramentas de desenvolvimento para melhorar a produtividade durante o ciclo de desenvolvimento.
+- Spring Data JPA: Facilita o acesso a dados e a implementação de repositórios usando a tecnologia JPA (Java Persistence API).
+- MySQL Driver: Driver de conexão JDBC para o MySQL.
+- Flyway DB e Flyway MySQL: Utilizados para migração e versionamento do banco de dados.
    
 ### Configuração do Lombok
 
@@ -32,21 +41,13 @@ Para configurar e executar o backend, serão necessárias algumas etapas de inst
    Caso sua IDE não esteja na lista, clique no botão "Specify location" para especificar o diretório da sua IDE.
    Em seguida, clique no botão "Install / Update" para iniciar a instalação.
    Você receberá uma mensagem de sucesso após a conclusão da instalação.
-
    
-#### Dependências utilizadas
+### Instalação MySQL Server
 
-Além do Lombok, o projeto do backend utiliza as seguintes dependências já instaladas no pom.xml:
-- Spring Boot Starter Web: Fornece suporte para desenvolvimento de aplicações web com o Spring MVC.
-- DevTools: Oferece ferramentas de desenvolvimento para melhorar a produtividade durante o ciclo de desenvolvimento.
-- Spring Data JPA: Facilita o acesso a dados e a implementação de repositórios usando a tecnologia JPA (Java Persistence API).
-- MySQL Driver: Driver de conexão JDBC para o MySQL.
-- Flyway DB e Flyway MySQL: Utilizados para migração e versionamento do banco de dados.
 
 
 
 ## Importando o projeto
-
 1. Faça o clone do projeto a partir do repositório: https://github.com/lucasdiniz1708/lembretes-api.
 2. Abra a IDE Spring Tools Suite 4 ou o Visual Studio Code e importe o projeto como um projeto Maven existente.
 
