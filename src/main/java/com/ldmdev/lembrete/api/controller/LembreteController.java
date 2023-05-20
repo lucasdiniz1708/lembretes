@@ -1,11 +1,10 @@
 package com.ldmdev.lembrete.api.controller;
 
-import java.util.Arrays;
-import java.util.Date;
+
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -41,7 +40,7 @@ public class LembreteController {
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public Lembrete adicionar(@RequestBody Lembrete lembrete) {
+	public Lembrete adicionar(@Valid @RequestBody Lembrete lembrete) {
 		return lembreteRepository.save(lembrete);
 	}
 	
