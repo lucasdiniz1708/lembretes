@@ -72,4 +72,6 @@ Existem duas maneiras de executar o servidor backend:
 
 Após o servidor ser iniciado com sucesso, você pode acessar a aplicação de lembretes através do seu navegador ou de outra ferramenta de requisições HTTP, utilizando o endpoint `/lembretes` e a URL `http://localhost:8080`. Certifique-se de enviar as requisições HTTP corretamente para interagir com a API RESTful de acordo com a classe controller do codigo.
 
-Espero que isso te ajude!
+## Necessidade do servidor para funcionamento completo da aplicação
+
+Para testar a funcionalidade completa da aplicação, verifique se você possui o front em execução, através do Visual Studio Code com a , seguindo as instruções no repositório. [https://github.com/lucasdiniz1708/lembretes-front](https://github.com/lucasdiniz1708/lembretes-front)
