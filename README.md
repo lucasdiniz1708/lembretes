@@ -12,7 +12,7 @@ O backend do Lembretes é um projeto de API RESTful desenvolvido em Java usando 
 
 # Configuração e Execução
 
-Para configurar e executar o backend, serão necessárias algumas etapas de instalação e configuração.
+Para configurar e executar o ambiente, serão necessárias algumas etapas de instalação e configuração.
 
 ## Pré-requisitos
 
